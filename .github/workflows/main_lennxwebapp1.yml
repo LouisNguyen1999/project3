@@ -24,8 +24,8 @@ jobs:
      
       - name: Set up Python version
         run: apt-get update -y
-             apt-get install -y build-essential
-             pip3 install
+             # apt-get install -y build-essential
+             # pip3 install
 
       - name: Create and start virtual environment
         run: |
