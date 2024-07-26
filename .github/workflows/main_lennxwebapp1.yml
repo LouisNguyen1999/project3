@@ -31,9 +31,9 @@ jobs:
         run: |
           python -m venv venv
           source venv/bin/activate
-          pip install -U twine build packaging
-          python -m build
-          twine upload dist/*
+          # pip install -U twine build packaging
+          # python -m build
+          # twine upload dist/*
       
       - name: Install dependencies
         run: pip install -r web/requirements.txt
